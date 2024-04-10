@@ -16,7 +16,7 @@ pip install PyQt5
 ▶️ Execute o aplicativo:
 
 
-python password_generator.py
+python passwordgen.py
 
 💡 Escolha o tamanho e a complexidade da senha e clique em "Gerar Senha" para criar uma senha.
 
