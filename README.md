@@ -39,10 +39,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou e
 Licença
 Este projeto está licenciado sob a MIT License.
 
-```css
 
-
-Este arquivo Markdown contém todas as informações necessárias sobre o projeto, organizadas em seções distintas e formatadas para facilitar a leitura e a compreensão.
+Este arquivo Markdown contém todas as informações necessárias sobre o projeto
+organizadas em seções distintas e formatadas para facilitar a leitura e a compreensão.
 
 
 
