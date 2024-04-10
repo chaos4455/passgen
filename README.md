@@ -40,6 +40,7 @@ Botão para salvar as senhas geradas em um arquivo de texto.
 Botão para copiar a senha selecionada na lista para a área de transferência.
 
 🖼️ Capturas de tela
+![Gerador de Senha](https://raw.githubusercontent.com/chaos4455/passgen/main/python_7palA4F9Ef.png)
 
 Captura de tela do aplicativo em funcionamento.
 
