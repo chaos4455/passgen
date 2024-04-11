@@ -3,7 +3,6 @@ import random
 import string
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QSpinBox, QLineEdit, QListWidget, QListWidgetItem, QMessageBox, QFileDialog
 
-
 class PasswordGenerator(QWidget):
     def __init__(self):
         super().__init__()
