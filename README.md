@@ -56,5 +56,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou e
 
 📝 Licença
 Este projeto está licenciado sob a MIT License.
-
-Esta versão detalhada e expandida do README.md inclui ícones e emojis para tornar o conteúdo mais visualmente atraente e informativo.
