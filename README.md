@@ -51,8 +51,7 @@ O "Gerador de Senha em PyQt5" é um aplicativo desenvolvido em Python utilizando
 
 Captura de tela do aplicativo em funcionamento.
 
-🤝 Contribuindo
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
+🤝 Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
 
 📝 Licença
 Este projeto está licenciado sob a MIT License.
