@@ -41,7 +41,11 @@ jobs:
 
     - name: Build executable
       run: |
-        python -m PyInstaller --onefile --noconsole passwordgen.py
+        pyinstaller --onefile --noconsole passwordgen.py
+
+    - name: Check output
+      run: |
+        ls -lh dist  # Verificar se o executável foi gerado corretamente
 
     - name: Create versioned folder
       run: |
