@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # ajuste conforme seu ambiente de execução
+    runs-on: windows-latest  # alterado para executar em ambiente Windows
 
     steps:
     - name: Checkout repository
@@ -17,19 +17,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.11'  # ajuste conforme sua versão de Python
-
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y \
-          libxcb-render-util0 \
-          libxkbcommon-x11-0 \
-          libxcb-xinerama0 \
-          libxcb-keysyms1 \
-          libxcb-image0 \
-          libxcb-icccm4 \
-          libxcb-util1 \
-          libxcb-shape0
 
     - name: Install PyInstaller
       run: |
@@ -45,13 +32,13 @@ jobs:
 
     - name: Check output
       run: |
-        ls -lh dist  # Verificar se o executável foi gerado corretamente
+        dir dist  # Verificar se o executável foi gerado corretamente no Windows
 
     - name: Create versioned folder
       run: |
-        mkdir -p programa
-        timestamp=$(date +'%Y%m%d_%H%M%S')
-        mv dist/passwordgen programa/app_v_${timestamp}.exe
+        mkdir programa
+        $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
+        Move-Item dist\passwordgen.exe programa\app_v_${timestamp}.exe
 
     - name: Configure Git
       run: |
@@ -61,6 +48,6 @@ jobs:
     - name: Commit executable
       if: success()
       run: |
-        git add programa/app_v_*.exe
+        git add programa\app_v_*.exe
         git commit -m "Add executable for version $timestamp"
         git push
