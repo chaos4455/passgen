@@ -1,15 +1,6 @@
 🛠️ Gerador de Senha em PyQt5
 ℹ️ Este é um aplicativo simples de gerador de senha criado usando PyQt5 em Python.
 
-🚀 Funcionalidades
-🔑 Gere senhas aleatórias com diferentes tamanhos e complexidades.
-💾 Salve as senhas geradas em um arquivo de texto.
-📋 Copie senhas para a área de transferência.
-🧹 Limpe a lista de senhas geradas.
-📋 Requisitos
-🐍 Python 3.x
-🖼️ PyQt5
-🔧 Como usar
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge)](https://github.com/chaos4455/passgen)
 
