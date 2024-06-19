@@ -23,9 +23,9 @@ jobs:
         mkdir icons
         Invoke-WebRequest -Uri "https://github.com/chaos4455/passgen/raw/main/icon.png" -OutFile "icons/icon.png"
 
-    - name: Install PyInstaller
+    - name: Install PyInstaller and Pillow
       run: |
-        python -m pip install pyinstaller
+        python -m pip install pyinstaller Pillow
 
     - name: Install PyQt5 and dependencies
       run: |
