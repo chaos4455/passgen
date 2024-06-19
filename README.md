@@ -13,21 +13,17 @@
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge)](https://github.com/chaos4455/passgen)
 
-[![Latest Release](https://img.shields.io/github/v/release/chaos4455/passgen?style=for-the-badge&label=Download%20Latest%20Version)](https://github.com/chaos4455/passgen/tree/main/programa)
-
 ## 📥 Baixar e Executar o Aplicativo
 
 Clique no botão abaixo para baixar a última versão do aplicativo:
 
-[![Download Última Versão](https://img.shields.io/github/v/release/chaos4455/passgen?color=green&label=Download%20Última%20Versão&style=for-the-badge)](https://github.com/chaos4455/passgen/tree/main/programa)
+[![Download Última Versão](https://img.shields.io/badge/Download%20%C3%9Altima%20Vers%C3%A3o-blue?style=for-the-badge)](https://github.com/chaos4455/passgen/raw/main/programa/app_v_20240619_172029.exe)
 
 ## ℹ️ Informações do Repositório
 
 - [Documentação](#) (aqui você pode adicionar um link para a documentação se houver)
 - [Issues Abertas](#) (link para as issues abertas, se aplicável)
-- [Pull Requests](#) (link para os pull requests, se aplicável)
-
-
+- [Pu
 📥 Baixe o aplicativo:
 
 Download:
