@@ -16,9 +16,8 @@ Clique no botão abaixo para baixar a última versão do aplicativo:
 
 ## ℹ️ Informações do Repositório
 
-- [Documentação](#) (aqui você pode adicionar um link para a documentação se houver)
-- [Issues Abertas](#) (link para as issues abertas, se aplicável)
-- [Pull Requests](#) (link para os pull requests, se aplicável)
+- [Issues Abertas](#) (link para as issues abertas)
+- [Pull Requests](#) (link para os pull requests)
 
 📥 Baixe o aplicativo:
 
