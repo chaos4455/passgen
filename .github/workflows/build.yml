@@ -21,7 +21,15 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y libxcb-render-util0 libxkbcommon-x11-0
+        sudo apt-get install -y \
+          libxcb-render-util0 \
+          libxkbcommon-x11-0 \
+          libxcb-xinerama0 \
+          libxcb-keysyms1 \
+          libxcb-image0 \
+          libxcb-icccm4 \
+          libxcb-util1 \
+          libxcb-shape0
 
     - name: Install PyInstaller
       run: |
@@ -47,6 +55,7 @@ jobs:
         git config --local user.name "GitHub Action"
 
     - name: Commit executable
+      if: success()
       run: |
         git add programa/app_v_*.exe
         git commit -m "Add executable for version $timestamp"
