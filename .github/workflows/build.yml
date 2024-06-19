@@ -1,0 +1,42 @@
+name: Build and Deploy Executable
+
+on:
+  push:
+    branches:
+      - main  # ajuste conforme sua branch principal
+
+jobs:
+  build:
+    runs-on: windows-latest  # ajuste conforme seu ambiente de execução
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # ajuste conforme sua versão de Python
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # ajuste conforme seu arquivo de dependências
+
+    - name: Build executable
+      run: |
+        python -m PyInstaller --onefile --noconsole hostnameidgen.py
+
+    - name: Create versioned folder
+      run: |
+        mkdir -p programa
+        timestamp=$(date +'%Y%m%d_%H%M%S')
+        mv dist/hostnameidgen.exe programa/app_v_${timestamp}.exe
+
+    - name: Commit executable
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add programa/app_v_*.exe
+        git commit -m "Add executable for version $timestamp"
+        git push
