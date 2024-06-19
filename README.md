@@ -10,16 +10,19 @@
 🐍 Python 3.x
 🖼️ PyQt5
 🔧 Como usar
-📥 Instale os requisitos:
+
+📥 Baixe o aplicativo:
 
 Download:
-https://www.mediafire.com/file/jaeofnmpt6i41fy/gerapassv2.exe/file
+[Última versão do Aplicativo](https://github.com/chaos4455/passgen/tree/main/programa)
 
-pip install PyQt5
 ▶️ Execute o aplicativo:
 
+1. Acesse a pasta `programa` no repositório do projeto.
+2. Baixe a versão mais recente do aplicativo disponível.
 
-python passwordgen.py
+💡 Escolha o tamanho e a complexidade da senha e clique em "Gerar Senha" para criar uma senha.
+🧼 Use os botões "Limpar Senhas", "Salvar Senhas" e "Copiar Senha" conforme necessário.
 
 💡 Escolha o tamanho e a complexidade da senha e clique em "Gerar Senha" para criar uma senha.
 
