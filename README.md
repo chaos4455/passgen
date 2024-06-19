@@ -13,6 +13,10 @@
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge)](https://github.com/chaos4455/passgen)
 
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/chaos4455/passgen?label=Tamanho%20do%20Reposit%C3%B3rio&style=for-the-badge)](https://github.com/chaos4455/passgen)
+[![GitHub Forks](https://img.shields.io/github/forks/chaos4455/passgen?label=Forks&style=for-the-badge)](https://github.com/chaos4455/passgen/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/chaos4455/passgen?label=Estrelas&style=for-the-badge)](https://github.com/chaos4455/passgen/stargazers)
+
 ## 📥 Baixar e Executar o Aplicativo
 
 Clique no botão abaixo para baixar a última versão do aplicativo:
@@ -23,7 +27,8 @@ Clique no botão abaixo para baixar a última versão do aplicativo:
 
 - [Documentação](#) (aqui você pode adicionar um link para a documentação se houver)
 - [Issues Abertas](#) (link para as issues abertas, se aplicável)
-- [Pu
+- [Pull Requests](#) (link para os pull requests, se aplicável)
+
 📥 Baixe o aplicativo:
 
 Download:
